@@ -21,12 +21,19 @@ const HomeContainer: FC<HomeContainerProps> = ({ }) => {
    
     
     return currentUser === null
-        ? (<div>Loading...</div>)
-        : (<UserCard
-            firstName={currentUser.name.first}
-            lastName={currentUser.name.last}
-            gotchiUrl={currentUser.picture.large} 
-            />
+        ? (
+            <div>
+                Loading...
+            </div>
+        )
+        : (
+            <div>
+                <UserCard
+                    firstName={currentUser.name.first}
+                    lastName={currentUser.name.last}
+                    gotchiUrl={currentUser.picture.large} 
+                />
+            </div>
         );
 }
 

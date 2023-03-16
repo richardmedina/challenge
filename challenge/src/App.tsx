@@ -1,10 +1,10 @@
 import React from 'react';
-import HomeContainer from './containers/home/home-container.component';
+import AppRoutes from './routes/AppRoutes';
 
 function App() {
   return (
     <div className="App">
-      <HomeContainer />
+      <AppRoutes />
     </div>
   );
 }

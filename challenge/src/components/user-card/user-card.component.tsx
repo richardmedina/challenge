@@ -5,6 +5,15 @@ import UserInfo from '../user-info/user-info.component';
 
 const UserCardComponent = styled.div`
     text-align: center;
+    .grayed-container {
+        height: 100px;
+        background: #f0f0f0;
+        border-bottom: solid 1px #ddd;
+    }
+    .content {
+        position: relative;
+        top: -50px;
+    }
 `;
 
 interface UserCardProps {
@@ -16,9 +25,11 @@ interface UserCardProps {
 const UserCard : FC<UserCardProps> = ({ firstName, lastName, gotchiUrl }) => {
     return (
         <UserCardComponent>
-            <h1>This is home container</h1>
-            <UserGotchi url={gotchiUrl} />
-            <UserInfo firstName={firstName} lastName={lastName} />
+            <div className="grayed-container"></div>
+            <div className="content">
+                <UserGotchi url={gotchiUrl} />
+                <UserInfo firstName={firstName} lastName={lastName} />
+            </div>
         </UserCardComponent>
     );
 }

@@ -1,0 +1,64 @@
+{
+    "results": [{
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "Rasmus",
+            "last": "Andersen"
+        },
+        "location": {
+            "street": {
+                "number": 4323,
+                "name": "Sønderskovvej"
+            },
+            "city": "Horsens",
+            "state": "Sjælland",
+            "country": "Denmark",
+            "postcode": 93776,
+            "coordinates": {
+                "latitude": "-43.7608",
+                "longitude": "-108.1771"
+            },
+            "timezone": {
+                "offset": "-10:00",
+                "description": "Hawaii"
+            }
+        },
+        "email": "rasmus.andersen@example.com",
+        "login": {
+            "uuid": "c016d4be-aa6e-4dee-baaa-464f1bd41ba4",
+            "username": "redostrich358",
+            "password": "ning",
+            "salt": "NOA31430",
+            "md5": "4319e859467c355a30c14d68a638d6cb",
+            "sha1": "ab1fbb2ad5bca620c025e8534160123eb77b8cee",
+            "sha256": "1e87c0efb3bd139ab783ec71bed81b39bb91a720778369ab50029142cb5e7961"
+        },
+        "dob": {
+            "date": "1967-10-03T20:58:14.077Z",
+            "age": 55
+        },
+        "registered": {
+            "date": "2008-02-05T17:39:28.533Z",
+            "age": 15
+        },
+        "phone": "17821762",
+        "cell": "55648201",
+        "id": {
+            "name": "CPR",
+            "value": "031067-4392"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/95.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/95.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/95.jpg"
+        },
+        "nat": "DK"
+    }],
+    "info": {
+        "seed": "2c880c00cbad79cb",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "icon": "profile",
+        "label": "label1",
+        "action": "profile"
+    },
+    {
+        "icon": "email",
+        "label": "label2",
+        "action": "email"
+    },
+    {
+        "icon": "calendar",
+        "label": "label3",
+        "action": "calendar"
+    },
+    {
+        "icon": "map",
+        "label": "label4",
+        "action": "map"
+    },
+    {
+        "icon": "phone",
+        "label": "label5",
+        "action": "phone"
+    },
+    {
+        "icon": "lock",
+        "label": "label6",
+        "action": "lock"
+    }
+]
